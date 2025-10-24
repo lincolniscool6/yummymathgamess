@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unblocked Games — Private</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Unblocked Games — Private</h1>
+
+<div class="game-list">
+    <!-- Deltarune Fangame Card -->
+    <div class="game-card">
+        <img src="https://via.placeholder.com/400x225.png?text=Deltarune+Fangame" alt="Deltarune Fangame">
+        <h2>Deltarune Fangame</h2>
+        <button onclick="playDeltarune()">Play</button>
+    </div>
+
+    <!-- Sample Game 1 -->
+    <div class="game-card">
+        <img src="https://via.placeholder.com/400x225.png?text=Block+Jumper" alt="Block Jumper">
+        <h2>Block Jumper</h2>
+        <button onclick="playSample('https://example.com/game1/index.html')">Play</button>
+    </div>
+
+    <!-- Sample Game 2 -->
+    <div class="game-card">
+        <img src="https://via.placeholder.com/400x225.png?text=Space+Shooter" alt="Space Shooter">
+        <h2>Space Shooter</h2>
+        <button onclick="playSample('https://example.com/game2/index.html')">Play</button>
+    </div>
+</div>
+
+<!-- Game iframe container -->
+<div id="game-container" style="display:none;">
+    <iframe id="game-frame" src="" width="800" height="600"></iframe>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
